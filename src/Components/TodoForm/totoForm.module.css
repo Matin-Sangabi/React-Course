@@ -1,0 +1,42 @@
+.TodoForm{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.formInput{
+    padding: 0.75rem;
+    flex: auto;
+    border: none;
+    outline: 1px solid #512fae;
+    background-color: #dad6e3;
+    color: #512fae;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.formInput:focus{
+    background-color: #eceaf0;
+    box-shadow: 4px 9px 9px #aaa0c0;
+    transition: all 0.3s ease-in-out;
+}
+
+.formSubmit{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #512fae;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+}
